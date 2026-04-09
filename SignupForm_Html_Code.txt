@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <div class="cont">
+        <div class="form">
+            <h2>Signup Form</h2>
+
+            <div class="tabs">
+                <!-- Login Button -->
+                <a href="index.html" class="loginbutton">Login</a>
+
+                <!-- Signup Tab -->
+                <button class="tab active" disabled>Signup</button>
+            </div>
+
+            <!-- Form -->
+            <form action="form.html" method="post">
+
+                <input type="email" placeholder="Email Address" required >
+
+                <input type="password" placeholder="Password" minlength="6" required>
+
+                <input type="password" placeholder="Confirm Password" minlength="6" required>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn">Signup</button>
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+</html>

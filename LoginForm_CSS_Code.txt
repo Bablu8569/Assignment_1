@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #0f2027, #2c5364);
+}
+
+/* Container */
+.content {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Login Box */
+.login {
+    width: 100%;
+    max-width: 350px;
+    background: #ffffff;
+    margin: auto;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Inputs */
+.login input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.login input:focus {
+    border-color: #2c5364;
+}
+
+/* Forgot Password */
+.forgot {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    margin: 5px 0 15px;
+    color: #2c5364;
+    text-decoration: none;
+}
+
+/* Button */
+.login button {
+    width: 100%;
+    padding: 12px;
+    background: #2c5364;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.login button:hover {
+    background: #1a3c4d;
+}
+
+/* Signup Text */
+.login p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .login {
+        padding: 20px 15px;
+    }
+
+    .login h2 {
+        font-size: 20px;
+    }
+
+    .login input,
+    .login button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

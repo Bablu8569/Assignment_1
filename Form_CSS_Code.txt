@@ -1,0 +1,96 @@
+
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* HEADINGS */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* FORM DESIGN */
+form {
+    background: #fff;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* INPUT FIELDS */
+input[type="text"],
+input[type="email"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* RADIO BUTTON */
+input[type="radio"] {
+    margin-left: 10px;
+}
+
+/* LABEL */
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* BUTTON HOVER */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* TABLE DESIGN */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* TABLE HEADER */
+thead {
+    background-color: #007bff;
+    color: white;
+}
+
+/* TABLE CELLS */
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* ROW STRIPES */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* HOVER EFFECT */
+tbody tr:hover {
+    background-color: #dbe9ff;
+}

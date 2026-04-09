@@ -1,0 +1,110 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #0f2027, #2c5364);
+}
+
+/* Container */
+.cont {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Form Box */
+.form {
+    max-width: 350px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Heading */
+.form h2 {
+    margin-bottom: 20px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tab {
+    width: 48%;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    background: #eee;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: #1e88e5;
+    color: #fff;
+}
+
+/* Input Fields */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #1e88e5;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+/* Hover Blink Effect */
+.btn:hover {
+    background: hsl(216, 93%, 37%);
+    
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .form{
+        padding: 15px;
+    }
+
+    .tab {
+        font-size: 14px;
+    }
+}
+.loginbutton {
+    padding: 10px 20px;
+    background-color:green;
+    color:white;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 40%;
+    
+}
+
+a{
+    text-decoration: none;
+}

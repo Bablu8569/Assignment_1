@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form + Table</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<h1>Form + Table Page</h1>
+
+<!-- FORM -->
+<form>
+
+    <div>
+        <label>Name:</label>
+        <input type="text" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label>Email:</label>
+        <input type="email" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label>Experience:</label><br>
+        <input type="radio" name="exp" required> Fresher
+        <input type="radio" name="exp"> Experienced
+    </div>
+
+    <br>
+
+    <div>
+        <label>Resume Upload:</label>
+        <input type="file" required>
+    </div>
+
+    <br>
+
+    <div>
+    <label>Skills:</label><br>
+
+    <input type="checkbox" name="skills" value="Java"> Java <br>
+    <input type="checkbox" name="skills" value=".NET"> .NET <br>
+    <input type="checkbox" name="skills" value="Python"> Python <br>
+    <input type="checkbox" name="skills" value="JavaScript"> JavaScript <br>
+
+</div>
+
+    <br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+<hr>
+
+<!-- TABLE -->
+<h2>User Data</h2>
+
+<table border="1" cellpadding="10">
+
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Experience</th>
+            <th>Skills</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Bablu</td>
+            <td>bablu@gmail.com</td>
+            <td>Fresher</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>Pushpa</td>
+            <td>pushpa@gmail.com</td>
+            <td>Experienced</td>
+            <td>Python</td>
+        </tr>
+        <tr>
+            <td>Manish</td>
+            <td>manish@gmail.com</td>
+            <td>Fresher</td>
+            <td>C++</td>
+        </tr>
+        <tr>
+            <td>Rohit</td>
+            <td>rohit@gmail.com</td>
+            <td>Experienced</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Arjun</td>
+            <td>arjun@gmail.com</td>
+            <td>Experienced</td>
+            <td>ML</td>
+        </tr>
+        <tr>
+            <td>Ritesh</td>
+            <td>ritesh@gmail.com</td>
+            <td>Fresher</td>
+            <td>HTML</td>
+        </tr>
+        <tr>
+            <td>Pavika</td>
+            <td>pavika@gmail.com</td>
+            <td>Fresher</td>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>Anita</td>
+            <td>anita@gmail.com</td>
+            <td>Experienced</td>
+            <td>JavaScript</td>
+        </tr>
+        <tr>
+            <td>Lalita</td>
+            <td>lalita@gmail.com</td>
+            <td>Experienced</td>
+            <td>C#</td>
+        </tr>
+        <tr>
+            <td>Himanshu</td>
+            <td>himanshu@gmail.com</td>
+            <td>Fresher</td>
+            <td>F#</td>
+        </tr>
+    </tbody>
+
+</table>
+
+</body>
+</html>
